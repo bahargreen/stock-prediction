@@ -24,5 +24,25 @@ There are three steps of calculation of Bollinger Bands:
 •	Calculating two standard deviations away from the SMA
 •	Creating Bollinger Bands
 
+Deep learning:
+python/Deep_Volatility.ipynb
+LSTM networks are used commonly for stock price prediction. In deep learning, the LSTM layer consists of some memory blocks which are recurrently connected and thus capable of learning long-term dependencies. These blocks contain one or more recurrently connected memory cells and three multiplicative units - input, output, and forget that let to perform read, write, and reset operations. https://www.sciencedirect.com/science/article/pii/S2193943821001175
+I developed a volatility model; however, due to lack of sufficient data records and parameters, the model cannot be trained sufficiently to meaningfully solve the problem.  The preprocessing procedures includes the following steps: 
+Step 0: The data is split into two categories: TRAINING and VALIDATION according to the cv parameter that we specified in the GridSearchCV or RandomizedSearchCV 
+Step 1: the scaler is fitted on the TRAINING data 
+Step 2: the scaler transforms TRAINING data 
+Step 3: the models are fitted/trained using the transformed TRAINING data 
+Step 4: the scaler is used to transform the VALIDATION data 
+Step 5: the trained models predict using the transformed VALIDATION data 
+Step 6: the scaler is fitted on the TRAINING and VALIDATION data 
+Step 7: the scaler transforms TRAINING and VALIDATION data 
+Step 8: the model is fitted/trained using the transformed TRAINING and VALIDATION data and the best found parameters during Walk-Forward CV
+Step 9: the scaler transforms TEST data 
+Step 10: the trained model predicts using the transformed TEST data 
+
+
+
+
+
 
 
