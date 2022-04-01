@@ -1,7 +1,7 @@
 # stock-prediction
 ML algorithms:
 
-python/ML-algorithms-stock-prediction.ipynb
+ML-algorithms-stock-prediction.ipynb
 
 Cods Rational: 
 The cods are based on indicators such as  Bollinger Bands, Relative Strength Index(RSI which are technical analysis tools that investors and traders use .  The indicators analyze the historic data in order to draw patterns and forecast future price trends. The followings lines elaborate the above-mentioned indicators. 
@@ -26,7 +26,7 @@ There are three steps of calculation of Bollinger Bands:
 
 Deep learning:
 
-python/Deep_Volatility.ipynb
+Deep_Volatility.ipynb
 
 LSTM networks are used commonly for stock price prediction. In deep learning, the LSTM layer consists of some memory blocks which are recurrently connected and thus capable of learning long-term dependencies. These blocks contain one or more recurrently connected memory cells and three multiplicative units - input, output, and forget that let to perform read, write, and reset operations. https://www.sciencedirect.com/science/article/pii/S2193943821001175
 I developed a volatility model; however, due to lack of sufficient data records and parameters, the model cannot be trained sufficiently to meaningfully solve the problem.  The preprocessing procedures includes the following steps: 
