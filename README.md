@@ -25,7 +25,9 @@ There are three steps of calculation of Bollinger Bands:
 •	Creating Bollinger Bands
 
 Deep learning:
+
 python/Deep_Volatility.ipynb
+
 LSTM networks are used commonly for stock price prediction. In deep learning, the LSTM layer consists of some memory blocks which are recurrently connected and thus capable of learning long-term dependencies. These blocks contain one or more recurrently connected memory cells and three multiplicative units - input, output, and forget that let to perform read, write, and reset operations. https://www.sciencedirect.com/science/article/pii/S2193943821001175
 I developed a volatility model; however, due to lack of sufficient data records and parameters, the model cannot be trained sufficiently to meaningfully solve the problem.  The preprocessing procedures includes the following steps: 
 Step 0: The data is split into two categories: TRAINING and VALIDATION according to the cv parameter that we specified in the GridSearchCV or RandomizedSearchCV 
