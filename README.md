@@ -1,7 +1,7 @@
 # stock-prediction
 ML algorithms:
 
-ML-algorithms-stock-prediction.ipynb
+ ML_Stock_prediction.ipynb
 
 Cods Rational: 
 The cods are based on indicators such as  Bollinger Bands, Relative Strength Index(RSI which are technical analysis tools that investors and traders use .  The indicators analyze the historic data in order to draw patterns and forecast future price trends. The followings lines elaborate the above-mentioned indicators. 
